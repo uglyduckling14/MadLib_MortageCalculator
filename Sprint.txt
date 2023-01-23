@@ -1,2 +1,3 @@
-|Date|                                          |Time  |
-|1/21|Created repo and started documentation    |40 min|
+|Date|                                              |Time  |
+|1/21|Created repo and started documentation        |40 min|
+|1/22|Wrote pseudocode and finished documentation   |1 hour|
