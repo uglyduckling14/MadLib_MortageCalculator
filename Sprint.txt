@@ -1,3 +1,6 @@
 |Date|                                              |Time  |
 |1/21|Created repo and started documentation        |40 min|
 |1/22|Wrote pseudocode and finished documentation   |1 hour|
+|1/23| Busy Busy                                    |0 hour|
+|1/24| Tried to link js and html stuff              |1 hour|
+|1/25| Got output to print for MadLib               |2 hour|
