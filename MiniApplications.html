@@ -18,6 +18,17 @@
     <input type = "text" id = "N3"><br>
     <label for ="V"><strong>Verb</strong></label><br>
     <input type = "text" id = "V"><br>
-    <button type = "button" id = "LibSubmit" onclick = "story">Submit</button>
+    <button type = "button" id = "LibSubmit" >Submit</button>
     <p id = "output"><strong></strong></p>
+    <h2>
+        Mortgage Calculator
+    </h2>
+    <script src = "Mortgage.js"defer></script>
+    <label for = "loan"><strong>Loan Amount</strong></label><br>
+    <input id = "loan" type = "text"><br>
+    <label for = "interest"><strong>Annual Interest Rate</strong></label><br>
+    <input id = "interest" type = "text"><br>
+    <label for = "years"><strong>Number of Years</strong></label><br>
+    <input id = "years" type = "text"><br>
+    <p id = "mOutput" onblur="calculations"></p>
 </html>

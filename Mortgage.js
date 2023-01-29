@@ -1,7 +1,20 @@
 
-arrayStr= {"loan":"8000","interest":"0.3","year":"32"};
-function calculations(loan, interest, year){
-    const monthly =loan*(interest*Math.pow(1+interest,year*12))/(Math.pow(1+interest,year*12)-1);
-    return monthly;
-}
-console.log(calculations(80000,0.05/12,10));
+//console.log(calculations(80000,0.05/12,10));
+const loan = document.getElementById("loan");
+const interest =document.getElementById("interest");
+const years = document.getElementById("years");
+loan.addEventListener("blur",() => {
+    const monthly =loan.value*(interest.value*Math.pow(1+interest.value,years.value*12))/(Math.pow(1+interest.value,years.value*12)-1);
+    document.getElementById("mOutput").innerHTML="Monthly Payment: $ "+monthly.toFixed(2);
+    console.log(loan.value);
+});
+interest.addEventListener("blur",() => {
+    const monthly =loan.value*(interest.value*Math.pow(1+interest.value,years.value*12))/(Math.pow(1+interest.value,years.value*12)-1);
+    document.getElementById("mOutput").innerHTML= "Monthly Payment: $ "+monthly.toFixed(2);
+    console.log(interest.value);
+});
+years.addEventListener("blur",() => {
+    const monthly =loan.value*(interest.value*Math.pow(1+interest.value,years.value*12))/(Math.pow(1+interest.value,years.value*12)-1);
+    document.getElementById("mOutput").innerHTML="Monthly Payment: $ "+monthly.toFixed(2);
+    console.log(years.value);
+});
