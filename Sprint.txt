@@ -6,3 +6,5 @@
 |1/25| Got output to print for MadLib               |2 hour|
 |1/27| Basic mortgage HTML document                 |1 hour|
 |1/28| Got input and printed output for Mortgage    |1 hour|
+|1/29| Got blur to work for Mortgage                |1 hour|
+|2/01| finished                                     |20 min|

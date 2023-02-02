@@ -86,3 +86,8 @@ function calculations(loan, interest, year){
     const monthly = loan(interest(1+interest)^(year* 12))/((1+interest)^(year* 12)-1);
     return monthly;
 }
+
+### Major changes:
+
+* Didn't end up using multiple stories for the MadLib Generator.
+* Did not keep user input in an array
